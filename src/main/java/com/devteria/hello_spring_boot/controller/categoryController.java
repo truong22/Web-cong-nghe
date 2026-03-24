@@ -5,7 +5,7 @@ import com.devteria.hello_spring_boot.Entity.Category;
 import com.devteria.hello_spring_boot.Exceptions.AlreadyExistsException;
 import com.devteria.hello_spring_boot.Exceptions.ResoureeNotFoundException;
 import com.devteria.hello_spring_boot.Response.ApiResponse;
-import com.devteria.hello_spring_boot.Service.IcategoryService;
+import com.devteria.hello_spring_boot.Service.Category.IcategoryService;
 import static org.springframework.http.HttpStatus.*;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.ResponseEntity;

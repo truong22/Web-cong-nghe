@@ -1,0 +1,10 @@
+package com.devteria.hello_spring_boot.dto;
+
+import lombok.Data;
+
+@Data
+public class ImageDto {
+    private Long id;
+    private String fileName;
+    private String downloadUrl;
+}

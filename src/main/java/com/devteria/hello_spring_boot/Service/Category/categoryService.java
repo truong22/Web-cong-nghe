@@ -1,10 +1,8 @@
-package com.devteria.hello_spring_boot.Service;
+package com.devteria.hello_spring_boot.Service.Category;
 
 import com.devteria.hello_spring_boot.Entity.Category;
 import com.devteria.hello_spring_boot.Exceptions.ResoureeNotFoundException;
 import com.devteria.hello_spring_boot.Respository.categoryRepository;
-import lombok.AllArgsConstructor;
-import lombok.NoArgsConstructor;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
 

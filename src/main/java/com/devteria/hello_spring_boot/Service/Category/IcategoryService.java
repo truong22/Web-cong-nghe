@@ -1,4 +1,4 @@
-package com.devteria.hello_spring_boot.Service;
+package com.devteria.hello_spring_boot.Service.Category;
 
 import com.devteria.hello_spring_boot.Entity.Category;
 
@@ -8,7 +8,7 @@ public interface IcategoryService {
     Category getCategoryById(Long id);
     List<Category>getCategoryAll();
     Category getCategoryByName(String nameCategory);
-    Category addCategory(Category category);
+    Category addCategory(Category nameCategory);
     Category updateCategory(Long id,Category category);
     void deleteCategory(Long id);
 }
